@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="ACTION PROFESSIONNELLE 2" company="VOS REVES" webLink="" view-date="2023-10-04" view-index="0" gantt-divider-location="613" resource-divider-location="405" version="3.2.3247" locale="fr_FR">
+    <description>
+        <![CDATA[Gestion de différents éléments d'infrastructure de la société Vos Rêves qui propose des voyages aux USA et en Polynésie.]]>
+    </description>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="397" order="0"/>
+        <field id="tpd4" name="Date de début" width="107" order="1"/>
+        <field id="tpd5" name="Date de fin" width="108" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#ffff66 #ff0000 #3366ff #ff9900 #00cc00 #cc00ff #ff00ff #ffff33 #ff66cc #0066ff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="222" order="0"/>
+        <field id="1" name="Rôle par défaut" width="179" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Aucun">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="1" tue="0" wed="1" thu="1" fri="1" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2021" month="10" date="26" type="HOLIDAY"/>
+        <date year="2021" month="11" date="2" type="HOLIDAY"/>
+        <date year="2021" month="12" date="21" type="HOLIDAY"/>
+        <date year="2021" month="12" date="28" type="HOLIDAY"/>
+        <date year="2023" month="10" date="24" type="HOLIDAY">
+            <![CDATA[Vacances sur 24/10/23 00:00]]>
+        </date>
+        <date year="2023" month="10" date="31" type="HOLIDAY">
+            <![CDATA[Vacances sur 31/10/23 00:00]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="2" name="Présentation de la société Vos Rêves" color="#ff66cc" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2023-10-10" duration="1" complete="100" thirdDate="2021-10-05" thirdDate-constraint="0" expand="true">
+            <depend id="50" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="Présentation des besoins en STA d'un commercial" color="#ffff33" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="false" start="2023-11-28" duration="1" complete="100" thirdDate="2021-10-05" thirdDate-constraint="0" expand="true">
+            <depend id="48" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="48" name="Définition des caractéristiques techniques" color="#ffff33" meeting="false" start="2023-12-05" duration="3" complete="0" thirdDate="2023-10-10" thirdDate-constraint="0" expand="true"/>
+        <task id="50" name="développer une application sous tableur pour les trois imprimantes" color="#ff9900" meeting="false" start="2023-10-17" duration="5" complete="0" thirdDate="2023-10-10" thirdDate-constraint="1" expand="true"/>
+        <task id="42" name="Expression des besoins pour la gestion des frais" color="#8cb6ce" meeting="true" start="2023-10-10" duration="0" complete="100" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true"/>
+        <task id="51" name="Réaliser un prototype de l’application gestion des frais" color="#3366ff" meeting="false" start="2023-10-10" duration="6" complete="100" thirdDate="2023-10-10" thirdDate-constraint="0" expand="true"/>
+        <task id="49" name="Powerpoint Risques d'attaques" color="#ff0000" meeting="false" start="2023-10-10" duration="4" complete="100" thirdDate="2023-10-10" thirdDate-constraint="0" expand="true"/>
+        <task id="29" name="Présentation d'une charte informatique" color="#cc00ff" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="false" start="2023-11-07" duration="4" complete="100" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true"/>
+        <task id="31" name="Gestion du suivi de projet" color="#ffff66" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2023-10-10" duration="8" complete="90" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true"/>
+        <task id="34" name="Rendu final en fin de séance" color="#8cb6ce" meeting="false" start="2023-12-12" duration="1" complete="80" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true">
+            <depend id="36" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="36" name="Présentation devant jury" color="#8cb6ce" meeting="false" start="2023-12-19" duration="1" complete="0" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Martine HENARD" function="Default:0" contacts="martine.henard@ac-grenoble.fr" phone=""/>
+        <resource id="1" name="Jean-Maxime RIEDEL" function="Default:0" contacts="jean-maxim.riedel@ac-grenoble.fr" phone=""/>
+        <resource id="2" name="Samuel GIBERT" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Terence MAYOMBO" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Issam MOUSSI" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Adrien VENTRE" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Lucas TROUSSIER" function="Default:0" contacts="" phone=""/>
+        <resource id="7" name="Mattéo HENRIQUES" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="48" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="42" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="ETUDE MATERIELLE"/>
+        <role id="2" name="ANALYSE FONCTIONNELLE"/>
+        <role id="3" name="DEVELOPPEMENT EXCEL"/>
+        <role id="4" name="COMMUNICATION ECRITE"/>
+        <role id="5" name="PRESENTATION ORALE"/>
+    </roles>
+</project>
